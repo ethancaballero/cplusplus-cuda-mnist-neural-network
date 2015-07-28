@@ -1,4 +1,4 @@
-cuda_neural_Network
+C++_Cuda_Neural_Network_MNIST_train_test
 ===================
 
-A Neural Network implemented in parallel on the graphics card using cuda. It is used to classify digits from the minst database.
+Basic Neural Network implemented in parallel on the graphics card using cuda. Trains and tests on digits from the minst database.
