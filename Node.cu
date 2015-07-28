@@ -15,7 +15,6 @@ Node::Node(double outputVal, vector<Link> outputWeights, unsigned idx, double gr
 	}
 	m_idx = idx;
 	m_gradient = gradient;
-	test = 'test';
 }
 
 void Node::updateInWeights(Level &prevLevel)
