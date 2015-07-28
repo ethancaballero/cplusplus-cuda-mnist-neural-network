@@ -18,6 +18,5 @@ nvcc -V
 #to compile & run:
 ```
 make
-
 ./Network
 ```
