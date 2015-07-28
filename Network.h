@@ -5,7 +5,6 @@
 #include "Node.h"
 
 
-
 typedef vector<Node> Level;
 
 
