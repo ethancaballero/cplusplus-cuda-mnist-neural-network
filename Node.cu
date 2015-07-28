@@ -1,6 +1,6 @@
 #include "Node.h"
 
-double Node::eta = 0.39; //overall Network learning rate
+double Node::eta = 0.39; //learning speed
 double Node::alpha = 0.1; //momentum, multiplier of last derivWeight
 
 
