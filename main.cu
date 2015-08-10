@@ -527,7 +527,7 @@ int main(int argc, char** argv)
 	
 		train_on_gpu(60000);
 		error = ((double)test_on_gpu())/ 10000.0;
-		cout<<"The Error is: " << error << endl;
+		cout<<"The Error is: " << error << "%" << endl;
 		myNetwork.copyGpuToCpu();
 		myNetwork.outputToFile("Networks/784-2000-500-49-10_0");
 
