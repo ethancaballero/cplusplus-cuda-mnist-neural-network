@@ -1,7 +1,7 @@
 C++_Cuda_Neural_Network_MNIST_train_test
 ===================
 
-Neural Network implemented in parallel on gpu using cuda and c++. Trains and tests on digits from the minst dataset.
+Neural Network implemented on gpu using cuda and c++. Trains and tests on digits from the minst dataset.
 
 #run these in CLI to configure nnvc CUDA compiler driver for osx after cuda installation:
 ```
