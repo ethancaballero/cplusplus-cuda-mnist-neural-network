@@ -203,7 +203,7 @@ void testingFunc(){
 	printf("Copying Network To CPU\n");
 	myNetwork.copyGpuToCpu();
 	
-	printf("Dealloc Network\n");
+	printf("Deallocating Network\n");
 	myNetwork.deallocmemGPU();
 	
 	resultVals.clear();
