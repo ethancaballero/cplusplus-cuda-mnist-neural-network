@@ -521,7 +521,7 @@ int main(int argc, char** argv)
 
 	myNetwork.allocmemGPU();
 	
-	//train FdFwd then back propagation
+	//train FdFwd then back propagation.
 	
 	double error;
 	
