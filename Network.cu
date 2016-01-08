@@ -171,7 +171,7 @@ void Network::copyGpuToCpu(){
 }
 
 /*takes a file, uses a vector representation of that file, then creates Nodes.*/
-/*File is going to be lengths separated by space, \n\n weights separated by \n\n,- error. */
+/*file is going to be lengths separated by space, \n\n weights separated by \n\n,- error. */
 /*The "loader."*/
 Network::Network(string filename)
 {
